@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="포켓몬 도감",
+    page_title="kiad 포켓몬 도감",
     page_icon="./images/monsterball.png"
 )
 
@@ -29,7 +29,7 @@ img {
 
 
 st.title("streamlit 포켓몬 도감")
-st.markdown("**포켓몬**을 하나씩 추가해서 도감을 채워보세요!")
+st.markdown("**포켓몬**을 하나씩 추가해서 도감을 채워보세요!(한국광고연구소)")
 
 type_emoji_dict = {
     "노말": "⚪",
